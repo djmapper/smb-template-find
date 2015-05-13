@@ -67,7 +67,8 @@ define([
             // Bring in the dijit's AMD, and then construct the dijit
             require([this.dijitAmd], function (DijitConstructor) {
                 pThis.dijit = new DijitConstructor({
-                    map: pThis.appConfig.map
+                    map: pThis.appConfig.map,
+                    useTracking: pThis.config.tracking
                 }, domConstruct.create("div", null, pThis.rootDiv)).startup();
 
                 pThis.ready.resolve(pThis);

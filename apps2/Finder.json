@@ -72,6 +72,14 @@
             "tooltip": "Color of header bar and widget windows"
         }]
     }, {
+        "category": "<b>Locate Settings</b>",
+        "fields": [{
+            "label": "Track Location",
+            "fieldName": "tracking",
+            "type": "boolean",
+            "tooltip": "Locate button becomes toogle; when active the map will pan based on the users location"
+        }]
+    },{
         "category": "<b>Map Settings</b>",
         "fields": [{
             "label": "Select a map",
