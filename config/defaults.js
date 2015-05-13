@@ -26,6 +26,7 @@ define({
     "defaultUnicodeIdentifier": "",  // ASCII SQL search if ""; for Unicode SQL, use "U&" for PostgreSQL and "N" for everything else
     "bingKey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
     //Defaults to arcgis.com. Set this value to your portal or organization host name.
+    "tracking": false,
     "sharinghost": location.protocol + "//" + "www.arcgis.com",
     "units": null,
     "helperServices": {

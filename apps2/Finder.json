@@ -54,6 +54,9 @@
                 "label": "Neutral Grays",
                 "value": "NeutralGrays"
             }, {
+                "label": "Wellington City",
+                "value": "WellingtonCity"
+            }, {
                 "label": "Earth Browns",
                 "value": "EarthBrowns"
             }, {
@@ -171,6 +174,9 @@
                 "theme": "NeutralGrays",
                 "colors": ["#969696", "#fff", "#464646", "#d8d8d8"]
             }, {
+                "theme": "WellingtonCity",
+                "colors": ["#4c4c4c", "#FFCC00", "#000000", "#d8d8d8"]
+            }, {
                 "theme": "EarthBrowns",
                 "colors": ["#be9969", "#fff", "#523b20", "#d8d8d8"]
             }, {
@@ -189,7 +195,7 @@
         }
     }, {
         "classname": "js.LGFrame",
-        "styles": ".appFrame{width:100%;height:100%;overflow:hidden;position:absolute}.frameHeader{width:100%;height:48px;padding:0px;overflow:hidden;position:absolute;border:1px solid lightgray}.frameContent{width:100%;padding:0px;position:absolute}",
+        "styles": ".appFrame{width:100%;height:100%;overflow:hidden;position:absolute}.frameHeader{width:100%;height:48px;padding:0px;overflow:hidden;position:absolute;border:1px solid lightgray}.frameContent{width:100%;padding:0px;position:absolute;color:black}",
         "config": {
             "rootId": "outerFrame",
             "headerDivId": "headerFrame",
@@ -229,7 +235,7 @@
         }
     }, {
         "classname": "js.LGTitleBar",
-        "styles": ".appTitleBar{height:40px;margin:0px;padding:2px;overflow:hidden;position:absolute}.titleIcon{height:44px;margin:-4px;padding:0px;float:left}.titleText{height:48px;margin:3px 3px 3px 12px;padding:0px;font-size:200%;vertical-align:middle;word-wrap:break-word;float:left}@media all and (max-width: 520px){.titleText{display:none}}",
+        "styles": ".appTitleBar{height:40px;margin:0px;padding:2px;overflow:hidden;position:absolute}.titleIcon{height:44px;margin:-4px;padding:1px;float:left}.titleText{height:48px;margin:3px 3px 3px 12px;padding:0px;font-size:200%;vertical-align:middle;word-wrap:break-word;float:left}@media all and (max-width: 520px){.titleText{display:none}}",
         "config": {
             "rootId": "titleBar",
             "parentDiv": "headerFrame",
